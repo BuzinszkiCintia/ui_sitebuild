@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #e6e6e6;
+}
+
+#fields-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2c8f7d;
+  font-weight: bold;
+}
+
+#apply {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+#name,
+#password {
+  width: 20rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border: rgb(143, 142, 142) solid 1px;
+  border-radius: 2px;
+  background-color: white;
+  color: #39b69f;
+}
+#accept-label {
+  font-size: 0.8rem;
+}
+
+#checkbox-container {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#button {
+  background-color: #39b69f;
+  width: 10rem;
+  height: 2rem;
+  color: #e6e6e6;
+  border-radius: 2px;
+  border: none;
+}
+@media only screen and (max-width: 480px) {
+  #fields-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2c8f7d;
+    font-weight: bold;
+    padding: 1rem;
+  }
+
+  #apply {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+  }
+
+  #name,
+  #password {
+    width: 20rem;
+    height: 2rem;
+    margin: 0.5rem;
+    border: rgb(143, 142, 142) solid 1px;
+    border-radius: 2px;
+    background-color: white;
+    color: #39b69f;
+  }
+  #accept-label {
+    font-size: 0.8rem;
+  }
+
+  #checkbox-container {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #button {
+    background-color: #39b69f;
+    width: 10rem;
+    height: 2rem;
+    color: #e6e6e6;
+    border-radius: 2px;
+    border: none;
+  }
+}
